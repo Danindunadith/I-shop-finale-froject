@@ -1,0 +1,30 @@
+.OrderTable {
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .searchBar {
+    align-content:center;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .searchBar input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  .genbtn input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 150px; /* Adjust the width as needed */
+  }

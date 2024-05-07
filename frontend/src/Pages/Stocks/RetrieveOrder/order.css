@@ -1,0 +1,123 @@
+.OrderTable{
+    width: 60%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(252, 252, 252, 0.86) 100%);
+   
+    
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addButton{
+    text-decoration: none;
+    background-color: rgb(152, 151, 219);
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+.reportButton{
+    text-decoration: none;
+    background-color: rgb(152, 151, 219);
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left:10px;
+}
+
+
+.OrderTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border-color:black;
+}
+
+.OrderTable table thead th{
+    background-color: rgb(134, 134, 134);
+    color: white;
+    padding: 5px;
+
+}
+.OrderTable table tbody td{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.actionButtons button{
+    border: 0;
+    outline: none;
+    background: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.actionButtons a{
+    background: green;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    
+}
+
+
+.searchInput {
+    width: 200px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: white;
+    transition: border-color 0.3s;
+    margin-left:710px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.OrderTable tr:nth-child(odd) {
+    background-color: #ffffff; /* Adjust as needed */
+}
+
+.OrderTable tr:nth-child(even) {
+    background-color: #f9f9f9; /* Adjust as needed */
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 5px;
+  }

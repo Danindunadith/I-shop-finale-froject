@@ -1,0 +1,168 @@
+.addRepair{
+    width: 25%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(4,53,220,0.8599089293920693) 100%);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+    text-decoration-color: black;
+}
+
+.addRepairForm {
+    margin-top: 20px;
+}
+
+.addRepairForm .inputGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addRepairForm .inputGroup label{
+    margin-bottom: 5px;
+}
+
+.addRepairForm .inputGroup input{
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius:15px;
+}
+.addRepairForm .inputGroup select{
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+    border-radius:15px;
+}
+
+.addRepairForm .inputGroup button{
+    border: 0;
+    outline: none;
+    background-color: rgb(152, 151, 219);;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    margin-top: 20px;
+}
+
+.addRepairForm h3{
+    margin-top: 10px;
+}
+
+h3{
+    text-align:center;
+}
+
+.RepairTable{
+    width: 60%;
+    background: rgb(224, 220, 220);
+   
+    
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.addButton{
+    text-decoration: none;
+    background-color: rgb(152, 151, 219);
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.RepairTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    border-color:black;
+}
+
+.RepairTable table thead th{
+    background-color: rgb(134, 134, 134);
+    color: white;
+    padding: 5px;
+
+}
+.RepairTable table tbody td{
+    padding: 10px;
+    text-align: center;
+
+}
+
+.actionButtons button{
+    border: 0;
+    outline: none;
+    background: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.actionButtons a{
+    background: green;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.searchBar{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px
+}
+
+.searchBar::placeholder {
+    color: #aaa;
+}
+
+.dateInputs {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.dateInputs button{
+    border: 0;
+    outline: none;
+    background: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+h3 {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+    margin-bottom: 10px; /* Adjust spacing as needed */
+  }
+
+.container-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
